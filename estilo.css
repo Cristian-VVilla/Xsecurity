@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(68, 68, 68);
+    font-family: 'Poppins', sans-serif;;
+}
+/*Parte do cabeçalho*/
+.menu{
+    padding: 2vw;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    font-size: 80%;
+    
+}
+
+/*Configuração dos links*/
+.sobre{
+    padding-right: 1vw;
+    color: aliceblue;
+}
+
+.orcamentos{
+    padding-right: 1vw;
+    color: aliceblue;
+}
+
+.produtos{
+    padding-right: 0.5vw;
+    color:aliceblue;
+}
+
+.login{
+    width: 10vw;
+    max-width: 10vw;
+    min-width: 5vw;
+    height: 3vw;
+    max-height: 5vw;
+    min-height: 3vw;
+    padding:0.5vw 2vw 2vw 2vw;
+    
+} 
+
+.buttom-login{
+    width: 100%;
+    height:100%;
+    background-color: blue;
+    color: aliceblue;
+    border: blue;
+    border-radius: 1vw;
+    text-decoration: none;
+}
+
+.logo{
+    height: 7vw;
+    width: 7vw;
+    min-width: 7vw;
+    min-height: 7vw;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    bottom: 170%;
+}
+
+.logo-frase{
+    margin-top: 1vw;
+    position: relative;
+    bottom: 130%;
+    font-size: 2vw;
+    right: 2vw;
+    color:red
+}
+
+
+/*Parte dos serviços*/
+
+.servicos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ .camera{
+    width: 21vw;
+    min-width: 21vw;
+    max-width: 21vw;
+    height: 25vw;
+    min-height: 20vw;
+    max-height:30vw ;
+    color: aliceblue;
+    background-color:blue;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1vw;
+    padding-top: 1vw;
+ }
+
+ .imagem-camera{
+    width: 60%;
+    height: 40%;
+    border-radius: 50%;
+    
+ }
+
+ .frase-camera{
+    font-size: 100%;
+    min-width: 60%;
+    max-width: 100%;
+    min-height: 50%;
+    max-height: 100%;
+ }
+
+ .motor{
+    width: 21vw;
+    min-width: 21vw;
+    max-width: 21vw;
+    height: 25vw;
+    min-height: 20vw;
+    max-height:30vw ;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1vw;
+    padding-top: 1vw;
+ }
+
+ .imagem-motor{
+    width: 60%;
+    height: 40%;
+    border-radius: 50%;
+ }
+
+ .frase-motor{
+    font-size: 100%;
+    min-width: 60%;
+    max-width: 100%;
+    min-height: 50%;
+    max-height: 100%;
+ }
+
+ .cerca{
+    width: 21vw;
+    min-width: 21vw;
+    max-width: 21vw;
+    height: 25vw;
+    min-height: 20vw;
+    max-height:30vw ;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1vw;
+    padding-top: 1vw;
+ }
+
+ .imagem-cerca{
+    width: 60%;
+    height: 40%;
+    border-radius: 50%;
+ }
+ 
+ .frase-cerca{
+    font-size: 100%;
+    min-width: 60%;
+    max-width: 100%;
+    min-height: 50%;
+    max-height: 100%;
+ }
+
+ .formulario{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+ }
+
+ .box-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ #wpp{
+    width: 50%;
+    min-width: 30%;
+    max-width: 100%;
+    border: solid rgb(68, 68, 68) ;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center
+ }
+
+ #telefone{
+    width: 50%;
+    min-width: 30%;
+    max-width: 100%;
+    border: solid rgb(68, 68, 68) ;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center
+ }
+
+ #email{
+    width: 50%;
+    min-width: 30%;
+    max-width: 100%;
+    border: solid rgb(68, 68, 68) ;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center
+ }
+
+ .enviar-formulario{
+    width: 20vw;
+    height: 3vw;
+    max-width: 30vw;
+    min-width: 10vw;
+    max-height: 3vw;
+    min-height: 5vw;
+    background-color: blue;
+    border: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 2vw; 
+    
+ }
+
+ footer{
+    background-color: black;
+    color: aliceblue;
+   display: flex;
+   flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 4%;
+ }
+
+ /*Configuração da pagina de login*/
+ .formulario-login{
+    border: solid blue;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 200px;
+    margin-left:  25%;
+    margin-right:25%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 20px;
+ }
+
+ .formulario-login h1{
+    text-align: center;
+ }
+
+
+ #usuario{
+    width: 50%;
+    max-width: 50%;
+    min-width: 20%;
+    height: 20px;
+    max-height: 20px;
+    min-height: 20px;
+    border-radius: 20px;
+    border:  solid  2px blue;
+    background-color: rgb(68, 68, 68);
+    margin: 4px;
+    color: aliceblue;
+    text-align: center;
+ }
+
+ #usuario::placeholder{
+    color: aliceblue;
+    text-align: center;
+ }
+
+ #senha{
+    width: 49%;
+    height: 20px;
+    max-width: 50%;
+    min-width: 20%;
+    max-height: 20px;
+    min-height: 20px;
+    border-radius: 20px;
+    border:  solid  2px blue;
+    background-color: rgb(68, 68, 68);
+    margin: 4px;
+    color: aliceblue;
+    text-align: center;
+ }
+
+ #senha::placeholder{
+    color: aliceblue;
+    text-align: center;
+ }
+
+
+ .relembre{
+    color: blue;
+ }
+
+
+input[type="checkbox"]{
+    background-color: red;
+}
+
+.separacao a{
+    color: red;
+    text-decoration: none;
+}
+
+.botao-login{
+    background-color: blue;
+    color: aliceblue;
+    border: blue;
+    width: 20%;
+    height: 30px;
+    max-width: 40%;
+    min-width: 20%;
+    max-height: 30px;
+    min-height: 20px;
+    border-radius: 20px;
+    font-size: auto;
+    margin-top: 6px;
+}
+
+
+@media (max-width: 500px){
+    .formulario-login{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+ /*Configuração para celulares*/
+  @media (max-width:800px){
+    /*cabeçalho*/
+    .login{
+        width: 15vw;
+        max-width: 15vw;
+        min-width: 10vw;
+        height: 3vw;
+        max-height: 5vw;
+        min-height: 6vw;
+        padding:0.5vw 2vw 2vw 2vw;
+        
+    } 
+
+    .logo{
+        height: 15vw;
+        width: 15vw;
+        min-width: 15vw;
+        min-height: 15vw;
+        margin-top: 6vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        bottom: 170%;
+    }
+
+
+
+    /*Serviços*/
+    .servicos{
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        align-items: center;
+    
+    }
+
+    .frase{
+        font-size: 3vw;
+    }
+
+    .motor{
+        width: 50vw;
+        min-width: 50vw;
+        max-width: 50vw;
+        height: 70vw;
+        min-height: 50vw;
+        max-height:70vw ;
+        color: aliceblue;
+        background-color: blue;
+        border-radius: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1vw;
+        padding-top: 1vw;
+        margin-bottom: 2vw; 
+    }
+
+    .camera{
+        width: 50vw;
+        min-width: 50vw;
+        max-width: 50vw;
+        height: 70vw;
+        min-height: 50vw;
+        max-height:70vw ;
+        color: aliceblue;
+        background-color:blue;
+        border-radius: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1vw;
+        padding-top: 1vw;
+        margin-bottom: 2vw;
+    }
+
+    .cerca{
+        width: 50vw;
+        min-width: 50vw;
+        max-width: 50vw;
+        height: 60vw;
+        min-height: 50vw;
+        max-height:70vw ;
+        color: aliceblue;
+        background-color: blue;
+        border-radius: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1vw;
+        padding-top: 1vw;
+        padding-bottom: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .logo-frase{
+        margin-top: 7vw;
+        position: relative;
+        bottom: 130%;
+        font-size: 3vw;
+        right: 4vw;
+        color:red
+    }
+
+    .sobre{
+        display: none
+    }
+
+    .orcamentos{
+        display: none;
+    }
+
+    .produtos{
+        display: none;
+    }
+    
+
+    
+  }
